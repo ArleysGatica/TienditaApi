@@ -1,0 +1,280 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Fam. DuRoc\\Videos\\Api\\Api\\App.Infraestructura.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Fam. DuRoc\\Videos\\Api\\Api\\App.Infraestructura.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\Api\\App.Infraestructura.Api.csproj",
+        "projectName": "App.Infraestructura.Api",
+        "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\Api\\App.Infraestructura.Api.csproj",
+        "packagesPath": "C:\\Users\\Fam. DuRoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fam. DuRoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj"
+              },
+              "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj": {
+                "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj"
+              },
+              "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\App.Aplicaciones.csproj": {
+                "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\App.Aplicaciones.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj",
+        "projectName": "App.Dominio",
+        "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Fam. DuRoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fam. DuRoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj",
+        "projectName": "App.Infraestructura.Datos",
+        "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj",
+        "packagesPath": "C:\\Users\\Fam. DuRoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fam. DuRoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\App.Aplicaciones.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\App.Aplicaciones.csproj",
+        "projectName": "App.Aplicaciones",
+        "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\App.Aplicaciones.csproj",
+        "packagesPath": "C:\\Users\\Fam. DuRoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fam. DuRoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj"
+              },
+              "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj": {
+                "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
