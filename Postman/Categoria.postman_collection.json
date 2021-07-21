@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "bec4934b-8197-4993-a980-1b9fc1f5fecf",
+		"name": "Categoria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44376/Api/categoria",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"categoriaID\": \"0d369294-3110-4a07-85da-88bf370daa67\",\r\n        \"nombre\": \"Michelada\",\r\n        \"descripcion\": \"Pruebas\",\r\n        \"articulos\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/categoria",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44376/Api/categoria",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"categoriaID\": \"0d369294-3110-4a07-85da-88bf370daa67\",\r\n        \"nombre\": \"Michelada\",\r\n        \"descripcion\": \"Pruebas\",\r\n        \"articulos\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/categoria",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

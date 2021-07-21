@@ -18,7 +18,7 @@ namespace App.Infraestructura.Datos.Entidades
 			builder
 					.HasMany(cli => cli.DetallePedidoss)
 					.WithOne(pedido => pedido.Pedido);
-		
+			
 		}
 		}
 	}

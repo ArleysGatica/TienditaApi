@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "6f17f699-4339-4f6d-a014-b0202c7651c8",
+		"name": "Pedido",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44376/Api/factura",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \"pedidoID\": \"56d53ad7-d034-4314-96d3-2a944912abb0\",\r\n        \"fecha\": \"2021-03-31T00:00:00\",\r\n        \"clienteID\": \"9cff3668-1c6e-42d3-a634-bbc284a18b52\",\r\n        \"clienteN\": \"Cliente\",\r\n        \"total\": 999.00,\r\n        \"detallePedidoss\": \"DetallePedidos\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/factura",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"factura"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44376/Api/factura",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \"pedidoID\": \"FEDD8715-5A20-4B25-BF1B-F6DBC88861CC\",\r\n        \"fecha\": \"2021-03-31T00:00:00\",\r\n        \"clienteID\": \"69289A27-78EE-44B6-8A14-1086BF904FB8\",\r\n        \"total\": 999.00,\r\n        \"detallePedidoss\": []\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/factura",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"factura"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

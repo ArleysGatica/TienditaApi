@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "24c53287-e2ba-41b4-ba8f-00e2b885916f",
+		"name": "Proveedor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44376/Api/Proveedor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"proveedorID\": \"0c72eb6e-d731-4fa2-8d4a-66169bfd1e1e\",\r\n        \"nombres\": \"Arling Hurtado\",\r\n        \"telefono\": 87371022,\r\n        \"sitioWeb\": \"WWW.archooi.NET\",\r\n        \"articulos\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/Proveedor",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"Proveedor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44376/Api/Proveedor",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"proveedorID\": \"0c72eb6e-d731-4fa2-8d4a-66169bfd1e1e\",\r\n        \"nombres\": \"Arling Hurtado\",\r\n        \"telefono\": 87371022,\r\n        \"sitioWeb\": \"WWW.archooi.NET\",\r\n        \"articulos\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/Proveedor",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"Proveedor"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

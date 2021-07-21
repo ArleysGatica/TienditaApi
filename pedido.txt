@@ -1,13 +1,4 @@
-﻿using App.Aplicaciones.Interfaces;
-using App.Dominio;
-using App.Dominio.Interfaces.Repositorio;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace App.Aplicaciones.Servicio
-{
-	public class PedidodServicio : IServicioMovimiento<Pedido, Guid>
+public class PedidodServicio : IServicioMovimiento<Pedido, Guid>
 	{
 		private readonly IRepositorioBase<Articulo, Guid> repositorioArticulo;
 		private readonly IRepositorioMovimiento<Pedido, Guid> repositorioPedido;
@@ -36,7 +27,7 @@ namespace App.Aplicaciones.Servicio
 			{
 				pedido.PedidoID = entidad.PedidoID;
 				var pedidoAgregada = repositorioPedido.Agregar(entidad);
-				pedido.PedidoID.ForEach(detalle =>
+				pedido.ArticuloID.ForEach(detalle =>
 				{
 					var articuloSeleccionado = repositorioArticulo.SeleccionarPorID(detalle.ArticuloID);
 					if (articuloSeleccionado == null)

@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "1eb014d2-2c50-43d2-a1ee-3b30ab4e2864",
+		"name": "Articulos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44376/Api/Articulo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"articuloID\": \"56d53ad7-d034-4314-96d3-2a944912abb0\",\r\n        \"proveedorID\": \"9f5751ea-95d5-41bf-99fa-5b09173f7089\",\r\n        \"categoriaID\": \"de28364f-56f4-436f-9fef-996bd87d441a\",\r\n        \"nombreArt\": \"XXX X\",\r\n        \"precio\": 2000.00,\r\n        \"stock\": 1,\r\n        \"imagen\": \"/image/honorX.png\",\r\n        \"categoriaN\": null,\r\n        \"proveedorN\": null,\r\n        \"detallePedidoss\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/Articulo",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"Articulo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44376/Api/Articulo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"articuloID\": \"20adace4-157b-4e41-9dea-b3d8fc8c7a72\",\r\n        \"proveedorID\": \"9f5751ea-95d5-41bf-99fa-5b09173f7089\",\r\n        \"categoriaID\": \"de28364f-56f4-436f-9fef-996bd87d441a\",\r\n        \"nombreArt\": \"Konosuba\",\r\n        \"precio\": 2000.00,\r\n        \"stock\": 1,\r\n        \"imagen\": \"/image/honorX.png\",\r\n        \"categoriaN\": null,\r\n        \"proveedorN\": null,\r\n        \"detallePedidoss\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/Articulo",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"Articulo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

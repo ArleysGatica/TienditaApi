@@ -2,6 +2,7 @@
 using App.Dominio;
 using App.Infraestructura.Datos.Contexto;
 using App.Infraestructura.Datos.Repositorio;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -32,7 +33,9 @@ namespace App.Infraestructura.Api.Controllers
 
         }
 
+        [EnableCors("_myAllowSpecificOrigins")]
         [HttpGet("{id}")]
+
         public ActionResult<Articulo> Get(Guid id)
         {
             ArticuloServicio servicio = CrearServicio();
@@ -50,7 +53,9 @@ namespace App.Infraestructura.Api.Controllers
             return Ok(resultado);
         }
 
+        [EnableCors("_myAllowSpecificOrigins")]
         [HttpPut("{id}")]
+       
         public ActionResult Put(Guid id, [FromBody] Articulo Entidad)
         {
             ArticuloServicio servicio = CrearServicio();
@@ -68,6 +73,7 @@ namespace App.Infraestructura.Api.Controllers
             return View();
         }
 
+        [EnableCors("_myAllowSpecificOrigins")]
         [HttpDelete("{id}")]
         public ActionResult Delete(Guid id)
         {

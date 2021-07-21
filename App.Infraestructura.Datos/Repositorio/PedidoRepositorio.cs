@@ -18,7 +18,7 @@ namespace App.Infraestructura.Datos.Repositorio
 
 		public Pedido Agregar(Pedido pedido)
 		{
-			pedido.ClienteID = Guid.NewGuid();
+			pedido.PedidoID = Guid.NewGuid();
 
 			db.pedidos.Add(pedido);
 

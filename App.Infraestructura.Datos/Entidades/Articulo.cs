@@ -28,4 +28,5 @@ namespace App.Infraestructura.Datos.Entidades
 
 	}
 
-}
+	}
+

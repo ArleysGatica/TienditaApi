@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "a6a9a3a3-21a6-4bfa-945f-cde5466b8cb8",
+		"name": "Cliente",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Proveedor",
+			"item": []
+		},
+		{
+			"name": "https://localhost:44376/Api/cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"clienteID\": \"b1479f04-f00f-4a55-8130-fcd6b2447953\",\r\n        \"cedula\": \"9060106011000g\",\r\n        \"nombresCl\": \"Michel Fermin\",\r\n        \"apellidosCl\": \"Traña Lopez\",\r\n        \"telefono\": 88315570,\r\n        \"direccion\": \"CONTIGUO A LA POLICIA sur\",\r\n        \"sexo\": \"M\",\r\n        \"pedidos\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/cliente",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44376/Api/cliente",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"clienteID\": \"b1479f04-f00f-4a55-8130-fcd6b2447953\",\r\n        \"cedula\": \"9060106011000g\",\r\n        \"nombresCl\": \"Michel Fermin\",\r\n        \"apellidosCl\": \"Traña Lopez\",\r\n        \"telefono\": 88315570,\r\n        \"direccion\": \"CONTIGUO A LA POLICIA sur\",\r\n        \"sexo\": \"M\",\r\n        \"pedidos\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44376/Api/cliente",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44376",
+					"path": [
+						"Api",
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

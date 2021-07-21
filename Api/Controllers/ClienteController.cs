@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 
 namespace App.Infraestructura.Api.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class ClienteController : Controller
     {
         public ClienteServicio CrearServicio()
