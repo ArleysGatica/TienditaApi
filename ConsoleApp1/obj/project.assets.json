@@ -5744,19 +5744,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fam. DuRoc\\.nuget\\packages\\": {}
+    "C:\\Users\\Arleys Gatica\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\App.Aplicaciones.csproj",
+      "projectUniqueName": "C:\\Users\\Arleys Gatica\\Repositorio\\TienditaApi\\ConsoleApp1\\App.Aplicaciones.csproj",
       "projectName": "App.Aplicaciones",
-      "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\App.Aplicaciones.csproj",
-      "packagesPath": "C:\\Users\\Fam. DuRoc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\Arleys Gatica\\Repositorio\\TienditaApi\\ConsoleApp1\\App.Aplicaciones.csproj",
+      "packagesPath": "C:\\Users\\Arleys Gatica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arleys Gatica\\Repositorio\\TienditaApi\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Fam. DuRoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Arleys Gatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5768,12 +5768,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Dominio\\App.Dominio.csproj"
+            "C:\\Users\\Arleys Gatica\\Repositorio\\TienditaApi\\App.Dominio\\App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Arleys Gatica\\Repositorio\\TienditaApi\\App.Dominio\\App.Dominio.csproj"
             },
-            "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj": {
-              "projectPath": "C:\\Users\\Fam. DuRoc\\Videos\\Api\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj"
+            "C:\\Users\\Arleys Gatica\\Repositorio\\TienditaApi\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj": {
+              "projectPath": "C:\\Users\\Arleys Gatica\\Repositorio\\TienditaApi\\App.Infraestructura.Datos\\App.Infraestructura.Datos.csproj"
             }
           }
         }
@@ -5786,6 +5787,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -5811,7 +5813,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

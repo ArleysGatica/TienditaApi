@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Text;  
 
 using App.Infraestructura.Datos.Helpers;
 using App.Infraestructura.Datos.Entidades;
@@ -12,6 +12,12 @@ namespace App.Infraestructura.Datos.Contexto
 {
     public class AppDbContext : DbContext
     {
+         string SERVER = Envirionment.GetEnvirionmentVARIABLE("SERVER");
+         string PORT = Envirionment.GetEnvirionmentVARIABLE("PORT");
+          string DATABASE= Envirionment.GetEnvirionmentVARIABLE("DATABASE");
+           string USERNAME= Envirionment.GetEnvirionmentVARIABLE("USERNAME");
+            string PASSWORD = Envirionment.GetEnvirionmentVARIABLE("PASSWORD");
+
         public DbSet<Cliente> clientes { get; set; }
         public DbSet<Articulo> Articulo { get; set; }
         public DbSet<DetallePedidos> DetallePedido { get; set; }
@@ -21,7 +27,7 @@ namespace App.Infraestructura.Datos.Contexto
   
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(ConfiguracionGlobal.SqlServerConnectionString);
+            options.UseSqlServer($ "server={SERVER}, {PORT}; Initial  catalog ={DATABASE}" );
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
